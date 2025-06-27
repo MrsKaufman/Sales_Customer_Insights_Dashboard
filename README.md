@@ -1,35 +1,52 @@
-# Sales_Customer_Insights_Dashboard
 # 📊 Sales & Customer Insights Dashboard
 
 ## Overview
-This project analyzes e-commerce data to uncover revenue trends, product performance, and customer behavior. Built using SQL, Python (Pandas/Matplotlib), and Tableau, this BI case study demonstrates the full analytics pipeline — from raw data to actionable dashboards.
+This project explores a simulated e-commerce dataset to uncover insights into sales performance, customer behavior, and product trends. It demonstrates the full BI workflow: from data extraction and cleaning with SQL, to exploratory analysis in Python, to interactive visual storytelling using Tableau.
 
-## Tools Used
-- SQL for data extraction and cleaning
-- Python for exploratory data analysis (Pandas, Matplotlib)
-- Tableau for dashboard visualization and business insight delivery
+## Tools & Technologies
+- **SQL:** Data extraction, cleaning, aggregation
+- **Python (Pandas, Matplotlib, Seaborn):** EDA, KPI calculations, visual insights
+- **Tableau:** Interactive dashboard with filters and KPI highlights
 
-## Key KPIs
-- Monthly Revenue
-- Average Order Value
+## Key Business Questions Answered
+- What is our monthly revenue trend?
+- Which products generate the most revenue?
+- How do different regions perform?
+- What is our average order value?
+- What percentage of customers are repeat buyers?
+
+## Deliverables
+
+### 🔹 SQL Queries
+All queries used for data transformation and KPI generation are included in  
+[`/sql/queries.sql`](./sql/queries.sql).
+
+### 🔹 Python Notebook
+Exploratory data analysis and visual summaries are available in  
+[`/python/Sales_Customer_Insights_Analysis.ipynb`](./python/Sales_Customer_Insights_Analysis.ipynb).
+
+### 🔹 Tableau Dashboard
+An interactive dashboard with slicers by region, product category, and time:
+👉 [View Dashboard on Tableau Public](#) ← *(Insert your Tableau link here)*
+
+### 🔹 Key Metrics Shown
+- Total Revenue (monthly)
 - Top 10 Products by Sales
 - Revenue by Region
+- Average Order Value
 - Repeat Customer Rate
 
-## Files & Structure
-- `/data/` — CSV dataset
-- `/sql/` — Queries used for analysis
-- `/python/` — Jupyter Notebook with EDA
-- `/tableau/` — Dashboard screenshots and live link
-
-## Live Tableau Dashboard
-🔗 [Insert Tableau Public link here]
-
-## Project Outcomes
-- Created a dynamic Tableau dashboard with filters by product, region, and time
-- Used SQL to identify high-performing SKUs and sales trends
-- Applied Python to explore repeat customer behavior and seasonal sales patterns
+## Summary of Findings
+- Revenue peaks in Q4, suggesting strong holiday demand
+- Laptops and Smartphones lead in sales volume and revenue
+- The West region consistently outperforms others
+- 32% of customers made more than one purchase — a strong base for retention strategies
 
 ## Next Steps
-- Integrate new product and inventory datasets
-- Use regression to predict sales trends based on category and region
+- Join customer data with marketing or support records
+- Predict customer churn using logistic regression
+- Build dynamic dashboards with real-time data feeds
+
+---
+
+🚀 **Created by Melanie Kaufman**  
